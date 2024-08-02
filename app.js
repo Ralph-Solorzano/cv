@@ -16,7 +16,7 @@ let state = (function () {
   };
   
   const handleSubmit = (e) => {
-    e.preventDefault();x
+    e.preventDefault();
     console.log("Ralphs first site");
     console.log("form values", getInput());
   };
